@@ -44,25 +44,31 @@
     width:550px;
     background-color: rgb(21, 20, 21);
 }
+.nav-search:hover{
+    border:2px solid orange;
+    border-radius:5px;
+}
 .search-input{
     height:35px;
     width:500px;
-    font-size: 1 rem;
-    /* border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px; */
+    font-size: 1.5 rem;
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     border:none;
-    border-radius:5px;
     color:#161818;
+    padding:0px 10px;
 }
 .search-icon{
     display:flex;
     justify-content: center;
     align-items: center;
-    font-size:1.2rem;
+    font-size:1.3rem;
     width:45px;
     background-color: rgb(240, 191, 76);
     height:35px;
-    border-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
 }
 
 .text{
@@ -75,9 +81,9 @@
     border-radius: 5px;
     width:140px;
     background-color: grey;
-    padding:10px;
+    padding:5px;
     border:none;
-    height:50px;
+    height:40px;
 }
 .border{
     border:2px solid transparent;
@@ -131,4 +137,67 @@ a{
 .deals{
     font-size: 1.15rem;
     font-weight: bolder;
+}
+
+/**main**/
+
+.hero-sect{
+    background-image: url("./images/hero_image.jpg");
+    height:380px;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: gray;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin-bottom: 10px;
+}
+.hero-msg p{
+    font-size: 1.05rem;
+    font-style: italic;
+    color:black;
+    font-weight: 700;
+}
+
+/**shop section **/
+
+.shop-sect{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #e2e7e6;
+}
+.box{
+    background-color: white;
+    height:250px;
+    width:23%;
+    padding: 20px 0px 15px;
+    margin-top:15px;
+}
+.box-text{
+    color:black;
+    margin-left: 15px;
+}
+
+.box-img{
+    height:75%;
+    background-size: cover;
+    margin:15px;
+}
+
+.box p{
+    color:#007185;
+}
+
+.shop-sect2{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color: #e2e7e6;
 }
