@@ -5,7 +5,9 @@
     color:white;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+body{
+    background-color :#e2e7e6;
+}
 .navbar {
     background-color: #161818;
     height: 70px;
@@ -84,6 +86,7 @@
     padding:5px;
     border:none;
     height:40px;
+    cursor: pointer;
 }
 .border{
     border:2px solid transparent;
@@ -179,6 +182,7 @@ a{
     width:23%;
     padding: 20px 0px 15px;
     margin-top:15px;
+    border-radius:7px;
 }
 .box-text{
     color:black;
@@ -200,4 +204,115 @@ a{
     justify-content: space-evenly;
     align-content: center;
     background-color: #e2e7e6;
+}
+
+/** banner section **/
+.banner{
+    background-image: url("./images/b2.jpg");
+    height:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin-top:45px;
+}
+.banner h4{
+    font-size:1rem;
+    margin-bottom:20px;
+}
+.banner h2{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+.banner span{
+    font-weight:bolder;
+    font-size: 2.5rem;
+    color:#ef3636;
+}
+.banner button{
+    color:black;
+    padding:15px;
+    width:150px;
+    border-radius:5px;
+    border:none;
+    font-size:1rem;
+    font-weight: 550;
+    cursor:pointer;
+}
+.banner button:hover{
+    background-color: #088178;
+    color:white;
+}
+
+
+.sc-banner{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:45px;
+    padding:0px 50px;
+}
+.ban1{
+    background-size: cover;
+    height:400px;
+    width:44%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+}
+.ban1 .p1{
+    font-size:1.05rem;
+    margin-bottom: 5px;
+}
+.ban1 h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.ban1 .p2{
+    font-size:0.95rem;
+    margin-bottom: 5px;
+}
+.ban1 button{
+    background-color: transparent;
+    padding:10px 0px;
+    width:120px;
+    border-radius:2px;
+    border:none;
+    font-size:0.85rem;
+    font-weight: 550;
+    cursor:pointer;
+    border: 2px solid white;
+    margin-top:10px;
+}
+.ban1:hover button{
+    background-color: #088178;
+    color:white;
+}
+
+.sc-banner2{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:45px;
+    padding:0px 50px;
+}
+.ban2{
+    background-size: cover;
+    height:200px;
+    width:28%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left:25px;
+}
+.ban2 h2{
+    margin-bottom:15px;
+}
+.ban2 p{
+    color:#ef3636;
+    font-weight: bolder;
 }
