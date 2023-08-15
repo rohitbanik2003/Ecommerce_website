@@ -1,196 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecommerce</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-   <header>
-    <div class="navbar">
-        <div class="nav-logo">
-            <div class="logo"></div>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-search">
+                <input placeholder="Search for items, brands and inspiration" class="search-input">
+                <div class="search-icon">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-login">
+                <button class="button border">
+                    <span class="text">Sign Up</span></button>
+            </div>
+
+            <div class="nav-shop border-shop">
+                <a href="shop.html">
+                    <i class="fa-solid fa-shop"></i>
+
+
+                    Shop
+
+                </a>
+            </div>
+            <div class="nav-shop border-shop">
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+
+                    Cart
+
+                </a>
+            </div>
+
         </div>
 
-        <div class="nav-search">
-            <input placeholder="Search for items, brands and inspiration" class="search-input">
-            <div class="search-icon">
-                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p>Todays Detail's</p>
+                <p>Customer Service</p>
+                <p>Gift Cards</p>
+                <p>Coupons</p>
+                <p>More</p>
+            </div>
+            <div class="deals">
+                <p>Shop deals in electronics</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-sect">
+            <div class="hero-msg">
+                <p>You are on Ecommerce store. Shop on ecommerce India for millions of products with fast local delivery
+                </p>
             </div>
         </div>
 
-        <div class="nav-login">
-            <button class="button border">
-                <span class="text">Sign Up</span></button>
+        <div class="shop-sect">
+            <div class="box1 box">
+                <h2 class="box-text">Clothes</h2>
+                <div class="box-img" style="background-image: url('./images/box1_image.jpg');"></div>
+                <p class="box-text">Show more</p>
+            </div>
+            <div class="box2 box">
+                <h2 class="box-text">Health and Personal Care</h2>
+                <div class="box-img" style="background-image: url('./images/box2_image.jpg');"></div>
+                <p class="box-text">Show more</p>
+            </div>
+            <div class="box3 box">
+                <h2 class="box-text">Furniture</h2>
+                <div class="box-img" style="background-image: url('./images/box3_image.jpg');"></div>
+                <p class="box-text">Show more</p>
+            </div>
+            <div class="box4 box">
+                <h2 class="box-text">Electronics</h2>
+                <div class="box-img" style="background-image: url('./images/box4_image.jpg');"></div>
+                <p class="box-text">Show more</p>
+            </div>
         </div>
-        
-        <div class="nav-shop border-shop">
-            <a href="shop.html" >
-                <i class="fa-solid fa-shop"></i>
-        
-                
-                Shop
-                
-            </a>
+        <div class="shop-sect2">
+            <div class="box1 box">
+                <h2 class="box-text">Beauty Picks</h2>
+                <div class="box-img" style="background-image: url('./images/box5_image.jpg');"></div>
+                <p class="box-text">Show more</p>
+            </div>
+            <div class="box2 box">
+                <h2 class="box-text">Pet Care</h2>
+                <div class="box-img" style="background-image: url('./images/box6_image.jpg');"></div>
+                <p class="box-text">Show more</p>
+            </div>
+            <div class="box3 box">
+                <h2 class="box-text">Kid's zone</h2>
+                <div class="box-img" style="background-image: url('./images/box7_image.jpg');"></div>
+                <p class="box-text">Show more</p>
+            </div>
+            <div class="box4 box">
+                <h2 class="box-text">Fashion</h2>
+                <div class="box-img" style="background-image: url('./images/box8_image.jpg');"></div>
+                <p class="box-text">Show more</p>
+            </div>
         </div>
-        <div class="nav-shop border-shop">
-            <a href="cart.html" >
-                <i class="fa-solid fa-cart-shopping"></i>
-        
-                
-                Cart
-                
-            </a>
-        </div>
+
        
-    </div>
 
-    <div class="panel">
-        <div class="panel-all">
-            <i class="fa-solid fa-bars"></i>
-            All
-        </div>
-        <div class="panel-ops">
-           <p>Todays Detail's</p>
-           <p>Customer Service</p>
-           <p>Gift Cards</p>
-           <p>Coupons</p>
-           <p>More</p>
-        </div>
-        <div class="deals">
-            <p>Shop deals in electronics</p>
-        </div>
-    </div>
-   </header>
 
-   <main>
-    <div class="hero-sect">
-        <div class="hero-msg">
-            <p>You are on Ecommerce store. Shop on ecommerce India for millions of products with fast local delivery</p>
+        <div class="banner">
+            <h4>Repair services</h4>
+            <h2>Up to <span>70% Off</span> - All t-shirts & Accessories</h2>
+            <button>Explore More</button>
         </div>
-    </div>
 
-    <div class="shop-sect">
-        <div class="box1 box">
-            <h2 class="box-text">Clothes</h2>
-            <div class="box-img" style="background-image: url('./images/box1_image.jpg');"></div>
-            <p class="box-text">Show more</p>
-        </div>
-        <div class="box2 box">
-            <h2 class="box-text">Health and Personal Care</h2>
-            <div class="box-img" style="background-image: url('./images/box2_image.jpg');"></div>
-            <p class="box-text">Show more</p>
-        </div>
-        <div class="box3 box">
-            <h2 class="box-text">Furniture</h2>
-            <div class="box-img" style="background-image: url('./images/box3_image.jpg');"></div>
-            <p class="box-text">Show more</p>
-        </div>
-        <div class="box4 box">
-            <h2 class="box-text">Electronics</h2>
-            <div class="box-img" style="background-image: url('./images/box4_image.jpg');"></div>
-            <p class="box-text">Show more</p>
-        </div>
-    </div>
-    <div class="shop-sect2">
-        <div class="box1 box">
-            <h2 class="box-text">Beauty Picks</h2>
-            <div class="box-img" style="background-image: url('./images/box5_image.jpg');"></div>
-            <p class="box-text">Show more</p>
-        </div>
-        <div class="box2 box">
-            <h2 class="box-text">Pet Care</h2>
-            <div class="box-img" style="background-image: url('./images/box6_image.jpg');"></div>
-            <p class="box-text">Show more</p>
-        </div>
-        <div class="box3 box">
-            <h2 class="box-text">Kid's zone</h2>
-            <div class="box-img" style="background-image: url('./images/box7_image.jpg');"></div>
-            <p class="box-text">Show more</p>
-        </div>
-        <div class="box4 box">
-            <h2 class="box-text">Fashion</h2>
-            <div class="box-img" style="background-image: url('./images/box8_image.jpg');"></div>
-            <p class="box-text">Show more</p>
-        </div>
-    </div>
 
-    <div class="banner">
-        <h4>Repair services</h4>
-        <h2>Up to <span>70% Off</span> - All t-shirts & Accessories</h2>
-        <button>Explore More</button>
-    </div>
-    
-    <div class="sc-banner">
-       <div class="ban1" style="background-image: url('images/b17.jpg');">
-        <p class="p1">crazy deals</p>
-        <h3>buy 1 get 1 free</h3>
-        <p class="p2">The best classic dress is on sale</p>
-        <button>Learn More</button>
-       </div>
-       <div class="ban1" style="background-image: url('images/b10.jpg');">
-        <p class="p1">spring/summer</p>
-        <h3>upcoming season</h3>
-        <p class="p2">The best classic dress is on sale</p>
-        <button>Collection</button>
-       </div>
-    </div>
-    <div class="sc-banner2">
-       <div class="ban2" style="background-image: url('images/b7.jpg');">
-        <h2>SEASONAL SALE</h2>
-        <p>Winter Collection 50% Off</p>
-       </div>
-       <div class="ban2" style="background-image: url('images/b4.jpg');">
-        <h2>NEW FOOTWEAR COLLECTION</h2>
-        <p>Spring/Summer 2023</p>
-       </div>
-       <div class="ban2" style="background-image: url('images/b18.jpg');">
-        <h2>T-SHIRTS</h2>
-        <p>New Trending Prints</p>
-       </div>
-    </div>
-   </main>
+        <div class="shop-sect3">
+            <div class="sect3-text">
+                <h2>New Arrivals</h2>
+                <p>Summer Collection New Modern Design</p>
+            </div>
+            <div class="shop-sect31">
+                <div class="box1 box">
+                    <div class="box-img" style="background-image: url('./images/f1.jpg');"></div>
 
-   <footer>
-    <div class="footercontainer">
-        <div class="navfooterlinkcol">
-            <div class="footerhead"><strong>Get to know us</strong></div>
-            <ul>
-                <p>About us</p>
-                <p>Careers</p>
-                <p>Press releases</p>
-            </ul>
-        </div> 
-        <div class="navfooterlinkcol">
-            <div class="footerhead"><strong>Connect with us</strong></div>
-            <ul>
-                <p>Facebook</p>
-                <p>Twitter</p>
-                <p>Instagram</p>
-            </ul>
-        </div>  
-        <div class="navfooterlinkcol">
-            <div class="footerhead"><strong>Let Us Help You</strong></div>
-            <ul>
-                <p>Your Account</p>
-                <p>Returns centre</p>
-                <p>100% Purchase protection</p>
-                <p>Help</p>
-            </ul>
+                    <div class="logo31">
+                        <div class="star">
+                            <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p style="color:#1a7a25;font-weight:bold" >$78</p>
+                        </div>
+                        <div class="cart31">
+                            <i class="fa-solid fa-cart-shopping" style="color: #1a7a25;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 box">
+                    <div class="box-img" style="background-image: url('./images/f2.jpg');"></div>
+                    <div class="logo31">
+                        <div class="star">
+                            <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p style="color:#1a7a25;font-weight:bold" >$78</p>
+                        </div>
+                        <div class="cart31">
+                            <i class="fa-solid fa-cart-shopping" style="color: #1a7a25;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3 box">
+                    <div class="box-img" style="background-image: url('./images/f3.jpg');"></div>
+                    <div class="logo31">
+                        <div class="star">
+                            <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p style="color:#1a7a25;font-weight:bold" >$78</p>
+                        </div>
+                        <div class="cart31">
+                            <i class="fa-solid fa-cart-shopping" style="color: #1a7a25;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box4 box">
+                    <div class="box-img" style="background-image: url('./images/f4.jpg');"></div>
+                    <div class="logo31">
+                        <div class="star">
+                            <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p style="color:#1a7a25;font-weight:bold" >$78</p>
+                        </div>
+                        <div class="cart31">
+                            <i class="fa-solid fa-cart-shopping" style="color: #1a7a25;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shop-sect31">
+                <div class="box1 box">
+                    <div class="box-img" style="background-image: url('./images/f5.jpg');"></div>
+                    <div class="logo31">
+                        <div class="star">
+                            <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p style="color:#1a7a25;font-weight:bold" >$78</p>
+                        </div>
+                        <div class="cart31">
+                            <i class="fa-solid fa-cart-shopping" style="color: #1a7a25;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2 box">
+                    <div class="box-img" style="background-image: url('./images/f6.jpg');"></div>
+                    <div class="logo31">
+                        <div class="star">
+                            <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p style="color:#1a7a25;font-weight:bold" >$78</p>
+                        </div>
+                        <div class="cart31">
+                            <i class="fa-solid fa-cart-shopping" style="color: #1a7a25;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3 box">
+                    <div class="box-img" style="background-image: url('./images/f7.jpg');"></div>
+                    <div class="logo31">
+                        <div class="star">
+                            <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p style="color:#1a7a25;font-weight:bold" >$78</p>
+                        </div>
+                        <div class="cart31">
+                            <i class="fa-solid fa-cart-shopping" style="color: #1a7a25;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="box4 box">
+                    <div class="box-img" style="background-image: url('./images/f8.jpg');"></div>
+                    <div class="logo31">
+                        <div class="star">
+                            <div class="star1">
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                                <i class="fa-solid fa-star" style="color: #ffd700;"></i>
+                            </div>
+                            <p style="color:#1a7a25;font-weight:bold" >$78</p>
+                        </div>
+                        <div class="cart31">
+                            <i class="fa-solid fa-cart-shopping" style="color: #1a7a25;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <hr size="1"> 
-        <div class="footerbs">
-            <img src="./images/logo.jpg" alt="">
-            <ul>
-                <p>Conditions of Use and sale</p>
-                <p>Privacy notice</p>
-                <p>Interest based Ads</p>
-            </ul>
-            <span>© 2023, E-Commerce, Inc. or its affiliates</span>
+
+        <div class="offer" style="background-image: url('images/offer.jpg');">
+            <h2>BUMPER SALE!!!</h2>
+            <h3>Hurry Up, Offer closes soon</h3>
+         <!--  <i class="fa-solid fa-face-tongue-money" style="color: #ffd700;"></i>*/ -->
         </div>
-    </div>
-   </footer> 
+        
+
+        <div class="sc-banner">
+            <div class="ban1" style="background-image: url('images/b17.jpg');">
+                <p class="p1">crazy deals</p>
+                <h3>buy 1 get 1 free</h3>
+                <p class="p2">The best classic dress is on sale</p>
+                <button>Learn More</button>
+            </div>
+            <div class="ban1" style="background-image: url('images/b10.jpg');">
+                <p class="p1">spring/summer</p>
+                <h3>upcoming season</h3>
+                <p class="p2">The best classic dress is on sale</p>
+                <button>Collection</button>
+            </div>
+        </div>
+        <div class="sc-banner2">
+            <div class="ban2" style="background-image: url('images/b7.jpg');">
+                <h2>SEASONAL SALE</h2>
+                <p>Winter Collection 50% Off</p>
+            </div>
+            <div class="ban2" style="background-image: url('images/b4.jpg');">
+                <h2>NEW FOOTWEAR COLLECTION</h2>
+                <p>Spring/Summer 2023</p>
+            </div>
+            <div class="ban2" style="background-image: url('images/b18.jpg');">
+                <h2>T-SHIRTS</h2>
+                <p>New Trending Prints</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footercontainer">
+            <div class="navfooterlinkcol">
+                <div class="footerhead"><strong>Get to know us</strong></div>
+                <ul>
+                    <p>About us</p>
+                    <p>Careers</p>
+                    <p>Press releases</p>
+                </ul>
+            </div>
+            <div class="navfooterlinkcol">
+                <div class="footerhead"><strong>Connect with us</strong></div>
+                <ul>
+                    <p>Facebook</p>
+                    <p>Twitter</p>
+                    <p>Instagram</p>
+                </ul>
+            </div>
+            <div class="navfooterlinkcol">
+                <div class="footerhead"><strong>Let Us Help You</strong></div>
+                <ul>
+                    <p>Your Account</p>
+                    <p>Returns centre</p>
+                    <p>100% Purchase protection</p>
+                    <p>Help</p>
+                </ul>
+            </div>
+            <hr size="1">
+            <div class="footerbs">
+                <img src="./images/logo.jpg" alt="">
+                <ul>
+                    <p>Conditions of Use and sale</p>
+                    <p>Privacy notice</p>
+                    <p>Interest based Ads</p>
+                </ul>
+                <span>© 2023, E-Commerce, Inc. or its affiliates</span>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
