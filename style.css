@@ -8,6 +8,12 @@
 body{
     background-color :#e2e7e6;
 }
+@media (max-width:1068px){
+    body{
+        font-size: 14px;
+        width:fit-content;
+    }
+}
 .navbar {
     background-color: #161818;
     height: 70px;
@@ -49,6 +55,12 @@ body{
 .nav-search:hover{
     border:2px solid orange;
     border-radius:5px;
+}
+@media (max-width:1062px){
+    .nav-search{
+        width:50%;
+        margin:15px;
+    }    
 }
 .search-input{
     height:35px;
@@ -216,6 +228,11 @@ a{
     align-items: center;
     margin-top:45px;/*45*/
 }
+@media (max-width:1470px){
+    .banner {
+        background-size: 100%;
+    }    
+}
 .banner h4{
     font-size:1rem;
     margin-bottom:20px;
@@ -289,6 +306,13 @@ a{
     padding:0px;
     border-radius:15px;
     border:0.5px solid transparent;
+}
+@media (max-width:1376px){
+    .shop-sect31 .box{
+        margin:0px;
+        width:100%;
+        margin:10px;
+    }    
 }
 .star1{
     display:flex;
@@ -425,6 +449,11 @@ footer{
 }
 .navfooterlinkcol p{
     font-size:13px;
+}
+@media (max-width:1278px){
+    .navfooterlinkcol {
+        padding : 15px 0 0 150px;
+    }    
 }
 .footerbs {
     text-align: center;
