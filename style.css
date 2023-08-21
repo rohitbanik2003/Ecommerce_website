@@ -24,7 +24,7 @@ body{
 }
 .logo{
     background-image: url("./images/logo.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     height:70px;
     width:100%;
     border-radius: 10px;
@@ -261,6 +261,7 @@ a{
     font-size: 3rem;
     margin-bottom: 10px;
 }
+
 .sect3-text p{
     color:black;
     font-size: 1rem;
